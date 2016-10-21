@@ -10,10 +10,13 @@ colorscheme distinguished
 
 imap jk <Esc>l
 
+autocmd VimEnter * Vex | vert resize 45 | wincmd w
+
 call plug#begin('~/.vim/plugged')
 
-Plug 'helino/vim-json'
-Plug 'junegunn/vim-easy-align'
+Plug '~/.vim/plugged/vim-easy-align'
+Plug '~/.vim/plugged/elzr/vim-json'
+Plug '~/.vim/nikvdp/ejs-syntax'
 "Plug '~/.vim/plugged/delimitMate'
 Plug '~/.vim/plugged/vim-javascript'
 Plug '~/.vim/plugged/vim-javascript-syntax'
