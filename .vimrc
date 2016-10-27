@@ -16,7 +16,7 @@ set background=dark
 imap jk <Esc>l
 
 "Vex | vert resize 32 | 
-autocmd VimEnter * NERDTree | wincmd w | AirlineTheme powerlineish
+autocmd VimEnter * NERDTree | wincmd w | AirlineTheme solarized
 
 call plug#begin('~/.vim/plugged')
 
