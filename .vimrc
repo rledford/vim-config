@@ -9,14 +9,15 @@ set t_Co=256
 set autoread
 set cursorline
 set so=5
-"colorscheme distinguished
 let g:solarized_termcolors=256
 colorscheme solarized
+"colorscheme distinguished
 set background=dark
+
 imap jk <Esc>l
 
-"Vex | vert resize 32 | 
-autocmd VimEnter * NERDTree | wincmd w | AirlineTheme solarized
+"Vex | vert resize 32 |
+"autocmd VimEnter * NERDTree | wincmd w | AirlineTheme solarized
 
 call plug#begin('~/.vim/plugged')
 
@@ -32,4 +33,3 @@ Plug '~/.vim/plugged/vim-airline-themes'
 Plug '~/.vim/plugged/nerdtree'
 
 call plug#end()
-
