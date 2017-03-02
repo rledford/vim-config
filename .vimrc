@@ -43,5 +43,6 @@ Plug '~/.vim/plugged/nerdtree'
 Plug '~/.vim/plugged/vim-indent-guides'
 Plug '~/.vim/plugged/YouCompleteMe'
 Plug '~/.vim/plugged/vim-jsx'
+Plug '~/.vim/plugged/typescript-vim'
 
 call plug#end()
